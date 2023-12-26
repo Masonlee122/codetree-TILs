@@ -1,3 +1,6 @@
+#완전 탐색 문제 3
+#탐색 범위를 정할 때 끝함수를 주의함
+
 n = int(input())
 data = list(map(int,input().split()))
 
