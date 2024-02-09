@@ -3,13 +3,13 @@ age = int(input())
 
 if gen == 0 :
     if age >= 19:
-        pritn('MAN')
+        print('MAN')
     else:
         print('BOY')
     
 
 else :
     if age >= 19:
-        pritn('WOMAN')
+        print('WOMAN')
     else:
         print('GIRL')
