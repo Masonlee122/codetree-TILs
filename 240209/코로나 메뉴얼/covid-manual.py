@@ -6,7 +6,7 @@ lst = [person_1,person_2,person_3]
 cnt = 0
 
 for i in lst:
-    if i[0] == 'Y' and int(i[1]) > 37:
+    if i[0] == 'Y' and int(i[1]) >= 37:
         cnt+=1
     
 
