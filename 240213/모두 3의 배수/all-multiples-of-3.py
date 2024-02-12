@@ -1,8 +1,7 @@
-lst = list(map(int,input().split()))
-
 c = 1
-for i in lst:
-    if i%3 != 0:
+for i in range(5):
+    n = int(input())
+    if n%3 != 0:
         c = 0
 
 print(c)
