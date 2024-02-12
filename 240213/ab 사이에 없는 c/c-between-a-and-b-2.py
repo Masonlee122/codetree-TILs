@@ -7,7 +7,7 @@ while c <= b:
     if a <= c <=b :
         k = True
         break
-
+    i+=1
 
 if k == False:
     print('YES')
