@@ -1,4 +1,9 @@
-student = [tuple(input().split()) for _ in range(5)]
+student = []
 
-student = sorted(student, reverse= True, key = lambda x: student[1])
-print(*student[0])
+for i in range(5):
+    name, age = input().split()
+    age = int(age)
+    student.append((name,age))
+
+student_sorted = sorted(student, key = lambda student: student[1])
+print(*student_sorted[0])
